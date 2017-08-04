@@ -1,4 +1,292 @@
-h1{
-color: green;
+/**{
+  border: 1px solid orange;
+}*/
 
+body{
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  height: 100vw;
+  margin: 0;
+}
+
+.container{
+  background: green;
+  margin-top: 2vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 15vw;
+  background: none;
+  width: 33vw;
+  height: 44vw;
+  position: relative;
+}
+.row-one{
+
+  border: 1px solid grey;
+  height: 8.6vw;
+  width: 32.7vw;
+  background-color: #76e576;
+  }
+
+.row-two{
+  background-color: #76e576;
+  border: 1px solid grey;
+  height: 8.6vw;
+  width: 32.7vw;
+/*padding-top: 8.6vw;*/
+
+  }
+
+.row-three{
+  background-color: #76e576;
+  border: 1px solid grey;
+  height: 8.6vw;
+  width: 32.7vw;
+/*padding-top: 8.6vw;*/
+
+  }
+
+.row-four{
+  background-color: #76e576;
+  border: 1px solid grey;
+  height: 8.6vw;
+  width: 32.7vw;
+/*padding-top: 8.6vw;*/
+
+  }
+
+.row-five{
+  background-color: #76e576;
+  /*border: 1px solid grey;*/
+  height: 8.7vw;
+  width: 32.7vw;
+/*padding-top: 8.6vw;*/
+
+  }
+
+  .display{
+    color: white;
+    background-color: #76e576;
+    font-size: 35pt;
+    display: flex;
+    text-align: right;
+    height: 8.6vw;
+    width: 23.8vw;
+  }
+
+  .clear{
+    background-color: #76e576;
+    float: left;
+    color: white;
+    font-size: 30pt;
+    width: 8.17vw;
+    height: 8.6vw;
+    margin: 0;
+    padding: 0;
+    padding-right: -1vw;
+  }
+  .clear:hover{
+    background-color: #8fbc8f;
+    float: left;
+    color: white;
+    font-size: 30pt;
+    width: 8.17vw;
+    height: 8.6vw;
+    margin: 0;
+    padding: 0;
+    padding-right: -1vw;
+  }
+
+
+.seven{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+  padding-right: -1vw;
+}
+
+.eight{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.nine{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.divide{
+  background-color: #8fbc8f;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+
+.four{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+  padding-right: -1vw;
+}
+
+.five{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.six{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.multiply{
+  background-color: #8fbc8f;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+
+.one{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+  padding-right: -1vw;
+}
+
+.two{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.three{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.subtract{
+  background-color: #8fbc8f;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+
+.zero{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+  padding-right: -1vw;
+}
+
+.decimal{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.equal{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+.equal:hover{
+  background-color: #8fbc8f;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.add{
+  background-color: #8fbc8f;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
 }
