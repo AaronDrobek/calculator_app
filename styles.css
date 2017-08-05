@@ -16,7 +16,7 @@ body{
   margin-right: 15vw;
   margin-bottom: 15vw;
   background: none;
-  width: 33vw;
+  width: 33.6vw;
   height: 44vw;
   position: relative;
 }
@@ -59,12 +59,12 @@ body{
   background-color: #76e576;
   /*border: 1px solid grey;*/
   height: 8.7vw;
-  width: 32.7vw;
+  width: 32.8vw;
 /*padding-top: 8.6vw;*/
 
   }
 
-  .display{
+  #display{
     color: white;
     background-color: #76e576;
     font-size: 35pt;
@@ -74,7 +74,7 @@ body{
     width: 23.8vw;
   }
 
-  .clear{
+  #clear{
     background-color: #76e576;
     float: left;
     color: white;
@@ -85,7 +85,7 @@ body{
     padding: 0;
     padding-right: -1vw;
   }
-  .clear:hover{
+  #clear:hover{
     background-color: #8fbc8f;
     float: left;
     color: white;
@@ -98,7 +98,7 @@ body{
   }
 
 
-.seven{
+#seven{
   background-color: #76e576;
   float: left;
   color: white;
@@ -110,7 +110,7 @@ body{
   padding-right: -1vw;
 }
 
-.eight{
+#eight{
   background-color: #76e576;
   float: left;
   color: white;
@@ -121,7 +121,7 @@ body{
   padding: 0;
 }
 
-.nine{
+#nine{
   background-color: #76e576;
   float: left;
   color: white;
@@ -132,7 +132,7 @@ body{
   padding: 0;
 }
 
-.divide{
+#divide{
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -144,7 +144,7 @@ body{
 }
 
 
-.four{
+#four{
   background-color: #76e576;
   float: left;
   color: white;
@@ -156,7 +156,7 @@ body{
   padding-right: -1vw;
 }
 
-.five{
+#five{
   background-color: #76e576;
   float: left;
   color: white;
@@ -167,7 +167,7 @@ body{
   padding: 0;
 }
 
-.six{
+#six{
   background-color: #76e576;
   float: left;
   color: white;
@@ -178,7 +178,7 @@ body{
   padding: 0;
 }
 
-.multiply{
+#multiply{
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -190,7 +190,7 @@ body{
 }
 
 
-.one{
+#one{
   background-color: #76e576;
   float: left;
   color: white;
@@ -202,7 +202,7 @@ body{
   padding-right: -1vw;
 }
 
-.two{
+#two{
   background-color: #76e576;
   float: left;
   color: white;
@@ -213,7 +213,7 @@ body{
   padding: 0;
 }
 
-.three{
+#three{
   background-color: #76e576;
   float: left;
   color: white;
@@ -224,7 +224,7 @@ body{
   padding: 0;
 }
 
-.subtract{
+#subtract{
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -236,7 +236,7 @@ body{
 }
 
 
-.zero{
+#zero{
   background-color: #76e576;
   float: left;
   color: white;
@@ -248,7 +248,7 @@ body{
   padding-right: -1vw;
 }
 
-.decimal{
+#decimal{
   background-color: #76e576;
   float: left;
   color: white;
@@ -259,7 +259,7 @@ body{
   padding: 0;
 }
 
-.equal{
+#equal{
   background-color: #76e576;
   float: left;
   color: white;
@@ -269,7 +269,7 @@ body{
   margin: 0;
   padding: 0;
 }
-.equal:hover{
+#equal:hover{
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -280,7 +280,7 @@ body{
   padding: 0;
 }
 
-.add{
+#add{
   background-color: #8fbc8f;
   float: left;
   color: white;
