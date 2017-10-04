@@ -13,15 +13,18 @@ let calcType = []
 for (var i = 0; i < keys.length; i++) {
 
   keys[i].addEventListener('click', function(event) {
-    if(this.innerHTML=='='){
-              result = eval(display.textContent;
-            }
-
-    display.value += event.target.name;
+    // if(this.innerHTML=='='){
+      display.value += event.target.name;
+        // result = eval(display.textContent;
+      })
 
     clear.addEventListener('click', function() {
     display.value = "";
+  })
 
+  equal.addEventListener('click', function() {
+  display.value = eval(display.value);
+})
 
 
     //
@@ -38,10 +41,6 @@ for (var i = 0; i < keys.length; i++) {
     //   }
     // }
 
-
-  })
-
-    })
 
 
 }
