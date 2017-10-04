@@ -21,60 +21,63 @@ body{
   width: 33.6vw;
   height: 44vw;
   position: relative;
+  outline: none;
 }
 .row-one{
-
   border: 1px solid grey;
   height: 8.6vw;
   width: 32.7vw;
   background-color: #76e576;
-  }
+}
+
 
 .row-two{
   background-color: #76e576;
   border: 1px solid grey;
   height: 8.6vw;
   width: 32.7vw;
-/*padding-top: 8.6vw;*/
+}
 
-  }
+
 
 .row-three{
   background-color: #76e576;
   border: 1px solid grey;
   height: 8.6vw;
   width: 32.7vw;
-/*padding-top: 8.6vw;*/
+}
 
-  }
+
 
 .row-four{
   background-color: #76e576;
   border: 1px solid grey;
   height: 8.6vw;
   width: 32.7vw;
-/*padding-top: 8.6vw;*/
+}
 
-  }
+
 
 .row-five{
   background-color: #76e576;
   /*border: 1px solid grey;*/
   height: 8.7vw;
   width: 32.8vw;
-/*padding-top: 8.6vw;*/
+}
 
-  }
+
 
   #display{
+    outline: none;
     color: white;
     background-color: #76e576;
     font-size: 35pt;
     display: flex;
     text-align: right;
     height: 8.6vw;
-    width: 23.8vw;
-  }
+    width: 23.9vw;
+    margin-right: 1vw;
+ }
 
   #clear{
     background-color: #76e576;
@@ -86,7 +89,10 @@ body{
     margin: 0;
     padding: 0;
     padding-right: -1vw;
+    outline: none;
   }
+
+
   #clear:hover{
     background-color: #8fbc8f;
     float: left;
@@ -97,10 +103,13 @@ body{
     margin: 0;
     padding: 0;
     padding-right: -1vw;
+    outline: none;
   }
 
 
+
 #seven{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -112,7 +121,9 @@ body{
   padding-right: -1vw;
 }
 
+
 #eight{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -122,8 +133,10 @@ body{
   margin: 0;
   padding: 0;
 }
+
 
 #nine{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -134,7 +147,9 @@ body{
   padding: 0;
 }
 
+
 #divide{
+  outline: none;
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -144,9 +159,11 @@ body{
   margin: 0;
   padding: 0;
 }
+
 
 
 #four{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -158,7 +175,9 @@ body{
   padding-right: -1vw;
 }
 
+
 #five{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -168,8 +187,10 @@ body{
   margin: 0;
   padding: 0;
 }
+
 
 #six{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -180,7 +201,9 @@ body{
   padding: 0;
 }
 
+
 #multiply{
+  outline: none;
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -190,6 +213,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 
 
 #one{
@@ -205,6 +229,7 @@ body{
 }
 
 #two{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -214,8 +239,10 @@ body{
   margin: 0;
   padding: 0;
 }
+
 
 #three{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -226,7 +253,9 @@ body{
   padding: 0;
 }
 
+
 #subtract{
+  outline: none;
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -238,7 +267,9 @@ body{
 }
 
 
+
 #zero{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -250,7 +281,21 @@ body{
   padding-right: -1vw;
 }
 
+
 #decimal{
+  background-color: #76e576;
+  float: left;
+  color: white;
+  font-size: 30pt;
+  width: 8.17vw;
+  height: 8.6vw;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+#equal{
+  outline: none;
   background-color: #76e576;
   float: left;
   color: white;
@@ -261,17 +306,8 @@ body{
   padding: 0;
 }
 
-#equal{
-  background-color: #76e576;
-  float: left;
-  color: white;
-  font-size: 30pt;
-  width: 8.17vw;
-  height: 8.6vw;
-  margin: 0;
-  padding: 0;
-}
 #equal:hover{
+  outline: none;
   background-color: #8fbc8f;
   float: left;
   color: white;
@@ -281,6 +317,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 
 #add{
   background-color: #8fbc8f;

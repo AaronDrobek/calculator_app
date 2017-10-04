@@ -13,35 +13,19 @@ let calcType = []
 for (var i = 0; i < keys.length; i++) {
 
   keys[i].addEventListener('click', function(event) {
-    // if(this.innerHTML=='='){
+    
+
       display.value += event.target.name;
         // result = eval(display.textContent;
       })
 
-    clear.addEventListener('click', function() {
-    display.value = "";
-  })
+      clear.addEventListener('click', function() {
+      display.value = "";
+      })
 
-  equal.addEventListener('click', function() {
-  display.value = eval(display.value);
-})
-
-
-    //
-    // let calc = function(keys,  keys, calcType){
-    //
-    //   if (calcType === "add"){
-    //     return num1 + num2;
-    //   }else if(calcType === "mutliply"){
-    //     return num1 * num2;
-    //   }else if(calcType === "divide"){
-    //     return num1 / num2;
-    //   }else if(calcType === "subtract"){
-    //     return num1 - num2;
-    //   }
-    // }
-
+      equal.addEventListener('click', function() {
+      display.value = eval(display.value);
+      })
 
 
 }
-console.log(eval);
